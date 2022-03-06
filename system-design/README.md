@@ -143,3 +143,28 @@ Courses | Duration | Effort | Prerequisites | Discussion
 [Python Data Strcuture - beginner](https://www.youtube.com/watch?v=pkYVOmU3MgA) | 12 hours 30 minutes | -- | -- | --
 [Python Data Structure - intermediate](https://www.youtube.com/watch?v=D6Q_wHrzxDs) | 12 hours | -- | -- | --
 [Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 20 hours | -- | -- | --
+
+
+In Progress
+
+𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀
+✓ 𝗖𝗮𝗰𝗵𝗶𝗻𝗴
+https://lnkd.in/gbF6B8SA
+
+✓ 𝗟𝗼𝗮𝗱 𝗕𝗮𝗹𝗮𝗻𝗰𝗶𝗻𝗴
+https://lnkd.in/gVgBtyHd
+
+✓ 𝗖𝗼𝗻𝘀𝗶𝘀𝘁𝗲𝗻𝘁 𝗛𝗮𝘀𝗵𝗶𝗻𝗴
+https://lnkd.in/gz2__k85
+
+✓ 𝗗𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗦𝗵𝗮𝗿𝗱𝗶𝗻𝗴 𝗜𝗻𝘁𝗿𝗼
+https://lnkd.in/geGFbpY3
+
+✓ 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗮 𝗪𝗲𝗯 𝗖𝗿𝗮𝘄𝗹𝗲𝗿
+https://lnkd.in/gvUa6CVQ
+
+And much more covered in his Newsletter
+https://lnkd.in/gMwvGZuZ
+
+𝗖𝗿𝗮𝗰𝗸𝗶𝗻𝗴 𝘁𝗵𝗲 𝗦𝘆𝘀𝘁𝗲𝗺 𝗗𝗲𝘀𝗶𝗴𝗻 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 - 𝗧𝗶𝗽𝘀 𝗮𝗻𝗱 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀
+https://lnkd.in/g9K7jyeP
