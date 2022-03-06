@@ -1,10 +1,6 @@
-<h3 align="center">Learn Computer Science | Step By Step</h3>
+<h3 align="center">DSA to prepare for FAANG Companies</h3>
 <p align="center">
-  Your self paced learning framework. Let's start small and achieve big!!
-</p>
-
-<p align="center">
-  Authored by Chetan Vashistth
+  desined by Chetan Vashistth
 </p>
 
 # Contents
@@ -17,61 +13,49 @@
 
 # Summary
 
-The OSSU curriculum is a **complete education in computer science** using online materials.
-It's not merely for career training or professional development.
-It's for those who want a proper, *well-rounded* grounding in concepts fundamental to all computing disciplines,
-and for those who have the discipline, will, and (most importantly!) good habits to obtain this education largely on their own,
-but with support from a worldwide community of fellow learners.
+Sukiru by Edupass is a learning platform where experienced Industry Professionals creates and publishes the curriculum for engineering students. These curriculums are designed with an aim to provide maximum number of free resources available over internet.
+These curriculum are also reviewed by peer group from industry and get enhanced regularly as per the feedback and comments.
 
-It is designed according to the degree requirements of undergraduate computer science majors, minus general education (non-CS) requirements,
-as it is assumed most of the people following this curriculum are already educated outside the field of CS.
-The courses themselves are among the very best in the world, often coming from Harvard, Princeton, MIT, etc.,
-but specifically chosen to meet the following criteria.
+Current curriculum you are seeing is one sample curriculum for DSA. This curriculum is helpful for the students who want to aim for product based companies and want to get entry as a Software Development Engineer (SDE). Please keep revisiting the link, we shall also update the change log for any changes/modifications in the curriculum content.
 
-**Courses must**:
-- Be open for enrollment
-- Run regularly (ideally in self-paced format, otherwise running multiple times per year)
-- Be of generally high quality in teaching materials and pedagogical principles
-- Match the curricular standards of the [CS 2013](CURRICULAR_GUIDELINES.md): Curriculum Guidelines for Undergraduate Degree Programs in Computer Science 
+**Prerequisites**:
+- Willingness to learn and to go extra mile (this course need dedicated 4 hours a day for 6-9 months).
+- Practical programming is required. Should have one basic configuration laptop/PC or should have access on Laboratory/Library computers.
+- Basic level knowledge of Programming Concepts and programming experiennce of atleast one programming language. 
 
-When no course meets the above criteria, the coursework is supplemented with a book.
-When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md) or [extras/readings](extras/readings.md).
+This curriculum is a collection of YouTube Videos, MOOC courses, Web Articles, Code Practices, and Few Text Books. Please follow it as per your ease.
+Students takes 6-9 months in completing this curriculum. There is no such rule on time, please follow your own speed. Taking extra time is no problem.
 
 **Organization**. The curriculum is designed as follows:
-- *Intro CS*: for students to try out CS and see if it's right for them
-- *Core CS*: corresponds roughly to the first three years of a computer science curriculum, taking classes that all majors would be required to take
-- *Advanced CS*: corresponds roughly to the final year of a computer science curriculum, taking electives according to the student's interests
-- *Final Project*: a project for students to validate, consolidate, and display their knowledge, to be evaluated by their peers worldwide
+- *Basics of Programming*: student may skip it if they know fundamentals of programming. This part is aimed to provide a foundation of programming understanding.
+- *Learn Python Programming*: this portion is also optional or student may choose a different programming language other than Python.
+- *What is DSA*: our formal curriculum starts here. This part is dedicated to provide understanding of Data Structures (what & why) and will also touch the importance of Algorithms.
+- *General Algorithms*: this section is dedicated for general algorithms used in day to day programming work.
+- *Arrays*: this section will touch and discuss the algorithms related to Arrays.
+- *Graphs*: this section will touch and discuss the algorithms related to Graphs.
+- *Searching*: this section will touch and discuss the algorithms related to Searching.
+- *Practice*: this section is dedicated for practical assignments.
 
-**Duration**. It is possible to finish within about 2 years if you plan carefully and devote roughly 20 hours/week to your studies. Learners can use [this spread
-](https://docs.google.com/spreadsheets/d/1bkUU90y4rKYQHwY5AR2iX6iiPTrPEsYs75GkCAkrgm4/copy) to estimate their end date. Make a copy and input your start date and expected hours per week in the `Timeline` sheet. As you work through courses you can enter your actual course completion dates in the `Curriculum Data` sheet and get updated completion estimates.
+**Duration :** It is possible to complete it in 6 months to 9 months time if you carefully allocate 10-15 hours per week.
 
-**Cost**. All or nearly all course material is available for free. However, some courses may charge money for assignments/tests/projects to be graded.
-Note that both [Coursera](https://www.coursera.support/s/article/209819033-Apply-for-Financial-Aid-or-a-Scholarship?language=en_US) and [edX](https://courses.edx.org/financial-assistance/) offer financial aid.
+**Cost :** Nearly all content is free of cost, still you may need to purchase few MOOC's to take part in projects. Don't worry for Certificates, EduPass will offer you one Unique (Worldwide Verifiable Certificate) without charging any cost. You can take certificate anywhere with you and can share that with world. Certificate will be on Blockchain and can be verified by anyone/everyone around the globe.
 
-Decide how much or how little to spend based on your own time and budget;
-just remember that you can't purchase success!
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-- We recommend doing all courses in Core CS, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core CS) in order from top to bottom, as they have already been [topologically sorted](https://en.wikipedia.org/wiki/Topological_sorting) by their prerequisites.
-- Courses in Advanced CS are electives. Choose one subject (e.g. Advanced programming) you want to become an expert in and take all the courses under that heading. You can also create your own custom subject, but we recommend getting validation from the community on the subject you choose.
+**Process :** 
+- We recommend to follow curriculum step by step and skip only if you are confident to.
+- Do the mentioned exercise post every course.
+- Build small projects/github repository and share them with your friends/world.
+- If you have some good resources then please comment them and we shall consider to add them too.
 
-**Content policy**. If you plan on showing off some of your coursework publicly, you must share only files that you are allowed to.
-*Do NOT disrespect the code of conduct* that you signed in the beginning of each course!
-
-**[How to contribute](CONTRIBUTING.md)**
-
-**[Getting help](HELP.md)** (Details about our FAQ and chatroom)
+**Content policy**. Don't share the solution files publicly until mentioned specificly. Help fellow learners but don't help in cheating. Cheating will break this good system, we need your support in keeping it clean.
 
 # Community
 
-- We have a discord server! [![Discord](https://img.shields.io/discord/744385009028431943.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/wuytwK5s9h) This should be your first stop to talk with other OSSU students. Why don't you introduce yourself right now? [Join the OSSU Discord](https://discord.gg/wuytwK5s9h)
-- You can also interact through GitHub issues. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](CONTRIBUTING.md).
-- Subscribe to our [newsletter](https://tinyletter.com/OpenSourceSocietyUniversity).
-- Add **Open Source Society University** to your [Linkedin](https://www.linkedin.com/school/11272443/) profile!
-- Note: There is an unmaintained and deprecated firebase app that you might find when searching OSSU. You can safely ignore it. Read more in the [FAQ](./FAQ.md#why-is-the-firebase-ossu-app-different-or-broken).
+- Join us on Discord Chat with fellow developers.
+- Join us on Telegram channel to follow announcements.
+- Subscribe email list and get updates on your email.
+- Be respectful while asking your doubts and share maximum information about what challenge you are facing.
+- Add EduPass to your LinkedIn profile School section, it will help you in finding fellow learners.
 
 # Curriculum
 
