@@ -1,4 +1,4 @@
-<h3 align="center">DSA to prepare for FAANG Companies</h3>
+<h3 align="center">Backend Development Step by Step.</h3>
 <p align="center">
   desined by Chetan Vashistth
 </p>

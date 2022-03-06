@@ -1,4 +1,4 @@
-<h3 align="center">DSA to prepare for FAANG Companies</h3>
+<h3 align="center">System Design for everyone.</h3>
 <p align="center">
   desined by Chetan Vashistth
 </p>
