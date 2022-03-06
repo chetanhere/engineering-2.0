@@ -125,3 +125,21 @@ Courses | Duration | Effort | Prerequisites | Discussion
 [Django - Web Programming in Python - optional](https://www.youtube.com/watch?v=w8q0C-C1js4&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=5) | 1 hour 39 minutes | -- | -- | --
 [Django - Models & Migration - optional](https://www.youtube.com/watch?v=YzP164YANAU&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=6) | 1 hour 55 minutes | -- | -- | --
 [Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 50 hours | -- | -- | --
+
+
+## Python Data Structure
+
+### Data Structure in Python (~ 50 Hours)
+
+First two lessons are a bit easy to follow and recommended if you are absolute beginner. Third lesson is a bit complex to understand.
+
+**Topics covered**:
+`python data structure`
+`basic data structure`
+`and more`
+
+Courses | Duration | Effort | Prerequisites | Discussion
+:-- | :--: | :--: | :--: | :--:
+[Python Data Strcuture - beginner](https://www.youtube.com/watch?v=pkYVOmU3MgA) | 12 hours 30 minutes | -- | -- | --
+[Python Data Structure - intermediate](https://www.youtube.com/watch?v=D6Q_wHrzxDs) | 12 hours | -- | -- | --
+[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 20 hours | -- | -- | --
