@@ -59,10 +59,10 @@ Students takes 6-9 months in completing this curriculum. There is no such rule o
 
 # Curriculum
 
-**Curriculum version**: `8.0.0` (see [CHANGELOG](CHANGELOG.md))
+**Curriculum version**: `0.1` (see [CHANGELOG](CHANGELOG.md))
 
-- [Prerequisites](#prerequisites)
-- [Intro CS](#intro-cs)
+- [Basics of Programming](#basics)
+- [Learn Python Programming](#python-programming)
   - [Introduction to Programming](#introduction-to-programming)
   - [Introduction to Computer Science](#introduction-to-computer-science)
 - [Core CS](#core-cs)
@@ -83,14 +83,35 @@ Students takes 6-9 months in completing this curriculum. There is no such rule o
 
 ---
 
-## Prerequisites
+## Basics
 
-- [Core CS](#core-cs) assumes the student has already taken [high school math](https://github.com/ossu/computer-science/blob/master/FAQ.md#how-can-i-review-the-math-prerequisites), including algebra, geometry, and pre-calculus.
-- [Advanced CS](#advanced-cs) assumes the student has already taken the entirety of Core CS
-and is knowledgeable enough now to decide which electives to take.
-- Note that [Advanced systems](#advanced-systems) assumes the student has taken a basic physics course (e.g. AP Physics in high school).
+### Computer Programming Fundamentals
 
-## Intro CS
+This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
+
+**Topics covered**:
+`computation`
+`programming`
+`construct of programming`
+`and more`
+
+Courses | Duration | Effort | Prerequisites | Discussion
+:-- | :--: | :--: | :--: | :--:
+[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
+[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
+[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
+[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
+[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
+[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
+[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
+[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
+[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
+[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
+[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
+[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
+
+
+## Python Programming
 
 ### Introduction to Programming
 
