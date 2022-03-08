@@ -144,7 +144,8 @@ Courses | Duration | Effort | Prerequisites | Discussion
 
 
 ## DSA General Algorithms
-### Euclid Algorithm ### 10 hours
+### Euclid Algorithm 
+### 10 hours
 
 This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
 
