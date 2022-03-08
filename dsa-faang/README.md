@@ -143,7 +143,7 @@ Courses | Duration | Effort | Prerequisites | Discussion
 [Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 20 hours | -- | -- | --
 
 
-### DSA General Algorithm (~ 10 Hours)
+### DSA General Algorithms (~ 10 Hours)
 
 This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
 
