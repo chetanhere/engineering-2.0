@@ -1,4 +1,4 @@
-<h3 align="center">Automation Testing - Getting Started.</h3>
+<h3 align="center">Automation Testing Using Selenium with Java- Getting Started.</h3>
 <p align="center">
   desined by Rajesh Pal
 </p>
@@ -20,6 +20,8 @@ Current curriculum you are seeing is one sample curriculum for DSA. This curricu
 - Willingness to learn and to go extra mile (this course need dedicated 4 hours a day for 6-9 months).
 - Practical programming is required. Should have one basic configuration laptop/PC or should have access on Laboratory/Library computers.
 - Basic level knowledge of Programming Concepts and programming experiennce of atleast one programming language. 
+- Good understanding of Java and OOPS concepts
+- Java SDK and Eclipse should be installed
 
 This curriculum is a collection of YouTube Videos, MOOC courses, Web Articles, Code Practices, and Few Text Books. Please follow it as per your ease.
 Students takes 6-9 months in completing this curriculum. There is no such rule on time, please follow your own speed. Taking extra time is no problem.
@@ -59,635 +61,138 @@ Students takes 6-9 months in completing this curriculum. There is no such rule o
 
 **Curriculum version**: `0.1` (see [CHANGELOG](CHANGELOG.md))
 
-- [Basics of Programming](#basics)
-- [Learn Python Programming](#python-programming)
-- [Data Structure in Python](#python-data-structure)
-- [General Algorithms](#dsa-general-algorithms)
-  - [Euclid's Algorithm](#euclid-algorithm)
-  - [Union Find Algorithm](#union-find-algorithm)
-  - [Huffman Algorithm](#huffman-algorithm)
-- [Arrays](#array-algorithms)
-  - [Kadane's Algorithm](#kadane-algorithm)
-  - [Floy's Cycle Algorithm](#floy-cycle-algorithm)
-  - [KMP Algorithm](#kmp-algorithm)
-  - [Quick Select Algorithm](#quick-select-algorithm)
-  - [Boyer Algorithm](#boyer-algorithm)
-- [Graphs](#graph-algorithms)
-  - [Kruskal Algorithm](#kruskal-algorithm)
-  - [Dijkstra's Algorithm](#dijkstra-algorithm)
-  - [Bellman Ford Algorithm](#bellman-ford-algorithm)
-  - [Topological Sort](#topological-sort)
-  - [Floyd Warshall Algorithm](#floyd-warshall)
-  - [Floodfill Algorithm](#floodfill-algorithm)
-  - [Lee Algorithm](#lee-algorithm)
-- [Searching](#searching-algorithms)
-  - [Linear Search](#linear-search)
-  - [Jump Search](#jump-search)
-  - [Binary Search](#binary-search)
-  - [DFS Algorithm](#dfs-search)
-  - [BFS Algorithm](#bfs-search)
-
+- [Environment Setup](#environment-setup)
+- [Selenium Basics](#selenium-basics)
+- [CSS and Xpath Locators](#css-and-xpath-locators)
+- [Selenium with Java](#selenium-with-java)
+- [Selenium with TestNG](#selenium-with-testng)
+- [Selenium Framework](#selenium-framework)
 ---
 
-## Basics
+## Environment Setup
 
-### Computer Programming Fundamentals (~ 10 Hours)
+### Selenium  Environment Setup (~ 2.5 Hours)
 
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
+This tutorial is helpful in setting up the environment for creating basic selenium script.
 
 **Topics covered**:
-`computation`
-`programming`
-`construct of programming`
+`Java SDK setup`
+`Eclipse`
+`TestNg`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
+[Java SDK Setup](https://www.toolsqa.com/selenium-webdriver/install-java) | 20 minutes | -- | -- | --
+[Eclipse Setup](https://www.toolsqa.com/selenium-webdriver/download-and-start-eclipse) | 20 minutes | -- | -- | --
+[Selenium Webdriver Configuration](https://www.toolsqa.com/selenium-webdriver/download-selenium-webdriver/) | 30 minutes | -- | -- | --
+[Configure Webdriver with Eclipse](https://www.toolsqa.com/selenium-webdriver/configure-selenium-webdriver-with-eclipse/) | 44 minutes | -- | -- | --
 
 
-## Python Programming
+## Selenium Basics
 
-### Python Getting Started (~ 65 Hours)
+### Selenium Getting Started (~ 9 Hours)
 
-First two lessons are a bit easy to follow and recommended if you are absolute beginner. Third lesson is a bit complex to understand.
+This tutorial will help you in creating basic selelium commands and intraction with web UI.
 
 **Topics covered**:
-`python syntax`
-`python data structures`
-`python ide and environment`
+`launching browser`
+`performing operation on web UI`
+
+
+Courses | Duration | Effort | Prerequisites | Discussion
+:-- | :--: | :--: | :--: | :--:
+[Selenium Introduction](https://artoftesting.com/selenium-introduction) | 2 hours 30 minutes | -- | -- | --
+[Selenium WebDriver configuration](https://artoftesting.com/selenium-webdriver-installation) | 1 hour | -- | -- | --
+[Launching Browser](https://artoftesting.com/launching-browsers-in-selenium)| 30 minutes | -- | -- | --
+[Finding Web Elements](https://artoftesting.com/locators-in-selenium-webdriver) | 1 hour | -- | -- | --
+[Selenium Basic Commands](https://artoftesting.com/selenium-webdriver-commands-list) | 2 hours | -- | -- | --
+[Waits in Selenium](https://artoftesting.com/waits-in-selenium-webdriver) | 2 hours | -- | -- | --
+
+
+## CSS and Xpath Locators
+
+### Locators in selenium (~ 5.5 Hours)
+
+Locators are the key in selenium to identify the web element in DOM and perform operation.
+
+**Topics covered**:
+`Locators`
+`Xpath`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Python programming - beginner](https://www.youtube.com/watch?v=rfscVS0vtbw) | 4 hours 27 minutes | -- | -- | --
-[Python programming - intermediate](https://www.youtube.com/watch?v=HGOBQPFzWKo) | 5 hours 56 minutes | -- | -- | --
-[Python a bit deeper](https://www.youtube.com/watch?v=ky-24RvI57s) | 2 hours 12 minutes | -- | -- | --
-[Understand GIT and Github - optional](https://www.youtube.com/watch?v=NcoBAfJ6l2Q&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=3) | 53 minutes | -- | -- | --
-[Django - Web Programming in Python - optional](https://www.youtube.com/watch?v=w8q0C-C1js4&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=5) | 1 hour 39 minutes | -- | -- | --
-[Django - Models & Migration - optional](https://www.youtube.com/watch?v=YzP164YANAU&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=6) | 1 hour 55 minutes | -- | -- | --
-[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 50 hours | -- | -- | --
+[CSS Locators](https://artoftesting.com/css-selector-in-selenium-webdriver) | 2 hours | -- | -- | --
+[Xpath Locators](https://artoftesting.com/xpath-in-selenium-tutorial) | 1 hour 30 minutes | -- | -- | --
+[Xpath Functions](https://way2tutorial.com/xml/xpath-functions.php) | 2 hour | -- | -- | --
 
 
-## Python Data Structure
+## Selenium with Java
 
-### Data Structure in Python (~ 50 Hours)
+### Selenium functions uses with Java (~ 19 hours)
 
-First two lessons are a bit easy to follow and recommended if you are absolute beginner. Third lesson is a bit complex to understand.
+This course will give you hands on experience to use selenium functions with Java.
 
 **Topics covered**:
-`python data structure`
-`basic data structure`
+`Selenium functions`
+`Web Automation`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Python Data Strcuture - beginner](https://www.youtube.com/watch?v=pkYVOmU3MgA) | 12 hours 30 minutes | -- | -- | --
-[Python Data Structure - intermediate](https://www.youtube.com/watch?v=D6Q_wHrzxDs) | 12 hours | -- | -- | --
-[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 20 hours | -- | -- | --
+[Handling Dropdown](https://artoftesting.com/how-to-select-a-dropdown-value-in-selenium-webdriver-using-java) | 2 hours 30 minutes | -- | -- | --
+[Right Click in selenium](https://artoftesting.com/right-click-in-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Double click in selenium](https://artoftesting.com/double-click-in-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Mouse Hover in Selenium](https://artoftesting.com/mouse-hover-in-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Drag and Drop](https://artoftesting.com/drag-and-drop-in-selenium-webdriver) | 30 minutes | -- | -- | --
+[Handling Alerts](https://artoftesting.com/handle-alerts-popups-in-selenium-webdriver) | 2 hours | -- | -- | --
+[Press non-text Keys](https://artoftesting.com/press-enter-tab-space-arrow-function-keys-in-selenium-webdriver-with-java) | 60 minutes | -- | -- | --
+[Scroll a Web Page](https://artoftesting.com/scroll-webpage-up-down-in-selenium-webdriver) | 30 minutes | -- | -- | --
+[Refresh a Page](https://artoftesting.com/refresh-a-page-in-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Maximize/Minimize Browser](https://artoftesting.com/maximize-minimize-a-browser-in-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Resize Browser](https://artoftesting.com/resize-a-browser-window-in-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Browser Navigation](https://artoftesting.com/navigate-back-forward-in-browser-selenium-webdriver-java) | 30 minutes | -- | -- | --
+[Keyword Interaction](https://artoftesting.com/handling-keyboard-events-in-selenium) | 2 hours | -- | -- | --
+[Mouse Interaction](https://artoftesting.com/handling-mouse-events-in-selenium) | 2 hours | -- | -- | --
+[Executing JavaScript Code](https://artoftesting.com/execute-javascript-code-in-selenium-webdriver) | 1 hour | -- | -- | --
 
 
-## DSA General Algorithms
-
-### Euclid Algorithm 
-### 1 hour 10 minutes
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
+## Selenium with TestNG 
+### 17 hours
 
 **Topics covered**:
-`mathematics`
-`gcd`
+`TestNG`
+`Annotations`
+`Parellel execution`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Introduction to Euclid Algorithm](https://www.youtube.com/watch?v=H1AE2Se8A5E) | 9 minutes | -- | -- | --
-[Visualize Euclid Algorithm](https://www.youtube.com/watch?v=qgcgZISJlEc) | 10 minutes | -- | -- | --
-[Example Euclid's Devision](https://www.youtube.com/watch?v=i_GSGCboDb8) | 5 minutes | -- | -- | --
-[Intro to Eucllidian Geometry](https://www.youtube.com/watch?v=WqzK3UAXaHs) | 9 minutes | -- | -- | --
-[Euclid Algorithm, Discreate Mathematics](https://www.youtube.com/watch?v=cOwyHTiW4KE) | 10 minutes | -- | -- | --
-[Program](https://www.youtube.com/watch?v=TOxMepI2RPo) | 26 minutes | -- | -- | --
+[TestNG Introduction](https://artoftesting.com/what-is-testng) | 1 hour 30 minutes | -- | -- | --
+[Selenium with TestNg example Script](https://artoftesting.com/selenium-with-java-example) | 1 hour 30 minutes | -- | -- | --
+[TestNG Annotations](https://artoftesting.com/testng-annotations) | 3 hours 30 minutes | -- | -- | --
+[Data Driven Testing](https://artoftesting.com/data-driven-framework-in-selenium-using-testng) | 2 hours | -- | -- | --
+[Rerun fail Test Cases](https://artoftesting.com/rerun-failed-tests-in-testng-selenium-webdriver-java) | 2 hours | -- | -- | --
+[Run Tests in parallel](https://artoftesting.com/run-selenium-test-in-parallel) | 3 hours | -- | -- | --
+[Multi browser testing](https://artoftesting.com/multi-browser-testing-in-selenium) | 3 hours | -- | -- | --
+[Soft Asserts](https://artoftesting.com/soft-assertion-in-testng-selenium-webdriver-java) | 30 minutes | -- | -- | --
 
 
-### Union Find Algorithm 
+
+## Selenium Framework
 ### 10 hours
 
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
+This course will simulate all your learning and conert into developing the frameworks
 
 **Topics covered**:
-`DSA Algorithm`
-`programming`
-`mathematics`
+`Data driven`
+`POM-Page object Model`
+`Page factory`
 `and more`
 
 Courses | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Disjoint Set - Union Find](https://www.geeksforgeeks.org/union-find/) | 30 minutes | -- | -- | --
-[Union by rank and path](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/) | 30 minutes | -- | -- | --
-[Hackerearth notes - Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/) | 45 minutes | -- | -- | --
-[Github Code- Union Find](https://medium.com/100-days-of-algorithms/day-41-union-find-d0027148376d) | 1 hour | -- | -- | --
-[GeeksforGeeks - Union Find](https://www.youtube.com/watch?v=mHz-mx-8lJ8) | 10 minutes | -- | -- | --
-
-
-### Huffman Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-## Array Algorithms
-
-### Kadane Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Floy Cycle Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### KMP Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Quick Select Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Boyer Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-## Graph Algorithms
-
-### Kruskal Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Dijkstra Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Bellman Ford Algorithm 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Topological Sort 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Floyd Warshall
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Floodfill Algorithm
-### 10 hours
-
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-### Lee Algorithm
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-
-## Searching Algorithms
-
-### Linear Search 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Jump Search 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### Binary Search 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### DFS Search 
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
-
-
-### BFS Search
-### 10 hours
-
-This course is assuming that you are absolute begginner. Please feel free to skip if it is too basic to your level of understanding. You can do it at fast pace.
-
-**Topics covered**:
-`computation`
-`programming`
-`construct of programming`
-`and more`
-
-Courses | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
+[Data Driven Framework](https://artoftesting.com/data-driven-framework-in-selenium-using-testng) | 2 hours 30 minutes | -- | -- | --
+[Page Object Model](https://artoftesting.com/pageobjectmodel) | 2 hours 30 minutes | -- | -- | --
+[Page Factory](https://artoftesting.com/page-factory-in-selenium) | 2hours 30 minutes | -- | -- | --
