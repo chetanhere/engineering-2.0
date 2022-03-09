@@ -1,6 +1,6 @@
 <h3 align="center">Blockchain Getting Started.</h3>
 <p align="center">
-  desined by Chetan Vashistth
+  desined by Chetan Vashistth (in progress)
 </p>
 
 # Contents
