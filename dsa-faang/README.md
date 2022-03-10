@@ -103,7 +103,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | Video | -- | -- | --
 [Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | Video | -- | -- | --
 [Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | Video |-- | -- | --
