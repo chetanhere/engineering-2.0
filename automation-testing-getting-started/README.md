@@ -14,7 +14,7 @@
 Sukiru by Edupass is a learning platform where experienced Industry Professionals creates and publishes the curriculum for engineering students. These curriculums are designed with an aim to provide maximum number of free resources available over internet.
 These curriculum are also reviewed by peer group from industry and get enhanced regularly as per the feedback and comments.
 
-Current curriculum you are seeing is one sample curriculum for DSA. This curriculum is helpful for the students who want to aim for product based companies and want to get entry as a Software Development Engineer (SDE). Please keep revisiting the link, we shall also update the change log for any changes/modifications in the curriculum content.
+Current curriculum you are seeing is one sample curriculum for Automation Testing. This curriculum is helpful for the students who want to aim for product based companies and want to get entry as a Software Development Engineer (SDE). Please keep revisiting the link, we shall also update the change log for any changes/modifications in the curriculum content.
 
 **Prerequisites**:
 - Willingness to learn and to go extra mile (this course need dedicated 4 hours a day for 6-9 months).
@@ -27,14 +27,12 @@ This curriculum is a collection of YouTube Videos, MOOC courses, Web Articles, C
 Students takes 6-9 months in completing this curriculum. There is no such rule on time, please follow your own speed. Taking extra time is no problem.
 
 **Organization**. The curriculum is designed as follows:
-- *Basics of Programming*: student may skip it if they know fundamentals of programming. This part is aimed to provide a foundation of programming understanding.
-- *Learn Python Programming*: this portion is also optional or student may choose a different programming language other than Python.
-- *What is DSA*: our formal curriculum starts here. This part is dedicated to provide understanding of Data Structures (what & why) and will also touch the importance of Algorithms.
-- *General Algorithms*: this section is dedicated for general algorithms used in day to day programming work.
-- *Arrays*: this section will touch and discuss the algorithms related to Arrays.
-- *Graphs*: this section will touch and discuss the algorithms related to Graphs.
-- *Searching*: this section will touch and discuss the algorithms related to Searching.
-- *Practice*: this section is dedicated for practical assignments.
+- *Environment Setup*: prepare your machie to hands on.
+- *Selenium Basics*: basic understanding of testing framework and tools.
+- *CSS & XPATH locator*: a step forward in testing.
+- *Selenium with Java*: start hands on with Java Programming Language.
+- *Selenium with TestNg*: starts hands on with JS and TestNg.
+- *Selenium Framework*: In depth Selenium Framework.
 
 **Duration :** It is possible to complete it in 6 months to 9 months time if you carefully allocate 10-15 hours per week.
 
