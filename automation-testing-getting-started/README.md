@@ -17,7 +17,7 @@ These curriculum are also reviewed by peer group from industry and get enhanced 
 Current curriculum you are seeing is one sample curriculum for Automation Testing. This curriculum is helpful for the students who want to aim for product based companies and want to get entry as a Software Development Engineer (SDE). Please keep revisiting the link, we shall also update the change log for any changes/modifications in the curriculum content.
 
 **Prerequisites**:
-- Willingness to learn and to go extra mile (this course need dedicated 4 hours a day for 6-9 months).
+- Willingness to learn and to go extra mile (this course need dedicated 4 hours a day for 3-4 weeks).
 - Practical programming is required. Should have one basic configuration laptop/PC or should have access on Laboratory/Library computers.
 - Basic level knowledge of Programming Concepts and programming experiennce of atleast one programming language. 
 - Good understanding of Java and OOPS concepts
@@ -34,7 +34,7 @@ Students takes 6-9 months in completing this curriculum. There is no such rule o
 - *Selenium with TestNg*: starts hands on with JS and TestNg.
 - *Selenium Framework*: In depth Selenium Framework.
 
-**Duration :** It is possible to complete it in 6 months to 9 months time if you carefully allocate 10-15 hours per week.
+**Duration :** It is possible to complete it in 4-6 weeks to time if you carefully allocate 10-15 hours per week.
 
 **Cost :** Nearly all content is free of cost, still you may need to purchase few MOOC's to take part in projects. Don't worry for Certificates, EduPass will offer you one Unique (Worldwide Verifiable Certificate) without charging any cost. You can take certificate anywhere with you and can share that with world. Certificate will be on Blockchain and can be verified by anyone/everyone around the globe.
 
