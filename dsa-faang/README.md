@@ -131,7 +131,7 @@ First two lessons are a bit easy to follow and recommended if you are absolute b
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Python programming - beginner](https://www.youtube.com/watch?v=rfscVS0vtbw) | Video | 4 hours 27 minutes | -- | -- | --
 [Python programming - intermediate](https://www.youtube.com/watch?v=HGOBQPFzWKo) | Video | 5 hours 56 minutes | -- | -- | --
 [Python a bit deeper](https://www.youtube.com/watch?v=ky-24RvI57s) | Video | 2 hours 12 minutes | -- | -- | --
@@ -153,7 +153,7 @@ First two lessons are a bit easy to follow and recommended if you are absolute b
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Python Data Strcuture - beginner](https://www.youtube.com/watch?v=pkYVOmU3MgA) | Video | 12 hours 30 minutes | -- | -- | --
 [Python Data Structure - intermediate](https://www.youtube.com/watch?v=D6Q_wHrzxDs) | Video | 12 hours | -- | -- | --
 [Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | Video | 20 hours | -- | -- | --
@@ -162,7 +162,7 @@ Courses | Type | Duration | Effort | Prerequisites | Discussion
 ## 50 hours
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Complete Semester Course Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) | Video | 50 hours | -- | -- | --
 
 
@@ -179,7 +179,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Introduction to Euclid Algorithm](https://www.youtube.com/watch?v=H1AE2Se8A5E) | Video | 9 minutes | -- | -- | --
 [Visualize Euclid Algorithm](https://www.youtube.com/watch?v=qgcgZISJlEc) | Video | 10 minutes | -- | -- | --
 [Example Euclid's Devision](https://www.youtube.com/watch?v=i_GSGCboDb8) | Video | 5 minutes | -- | -- | --
@@ -200,7 +200,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Disjoint Set - Union Find](https://www.geeksforgeeks.org/union-find/) | Article | 30 minutes | -- | -- | --
 [Union by rank and path](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/) | Article | 30 minutes | -- | -- | --
 [Hackerearth notes - Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/) | Notes | 45 minutes | -- | -- | --
@@ -220,7 +220,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Introduction to Huffman Algorithm](https://www.youtube.com/watch?v=umTbivyJoiI) | Video | 20 minutes | -- | -- | --
 [Huffman and text compression](https://www.youtube.com/watch?v=JsTptu56GM8) | Video | 20 minutes | -- | -- | --
 [Huffman coding - Greedy Choice](https://www.youtube.com/watch?v=0kNXhFIEd_w) | Video | 20 minutes | -- | -- | --
@@ -242,7 +242,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Introduction to Kadane Algorithm](https://www.youtube.com/watch?v=OexQs_cYgAQ) | Video | 30 minutes | -- | -- | --
 [Theory about Kadane Algorithm](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d) | Article | 20 minutes | -- | -- | --
 [Leetcode Challenge - Maximum Subarray](https://www.youtube.com/watch?v=umt7t1_X8Rc) | Video | 30 minutes | -- | -- | --
@@ -261,7 +261,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 [Find Duplicate Number - Floyd's Cycle algorithm](https://www.youtube.com/watch?v=wjYnzkAhcNk) | Video | 45 minutes | -- | -- | --
 [Floyd Warshall Algortihm](https://www.youtube.com/watch?v=5h4Rqa9CrHA) | Video | 45 minutes | -- | -- | --
 
@@ -278,7 +278,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 ### Quick Select Algorithm 
@@ -293,7 +293,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 ### Boyer Algorithm 
@@ -308,7 +308,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 ## Graph Algorithms
@@ -325,7 +325,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -341,7 +341,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -357,7 +357,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -373,7 +373,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -390,7 +390,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 ### Lee Algorithm
@@ -405,7 +405,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -423,7 +423,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 ### Jump Search 
@@ -438,7 +438,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -454,7 +454,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -470,7 +470,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
 
 
 
@@ -486,4 +486,4 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `and more`
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
-:-- | :--: | :--: | :--: | :--:
+:-- | :--: | :--: | :--: | :--: | :--:
