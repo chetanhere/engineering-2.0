@@ -104,12 +104,12 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 
 Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | Video | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | Video | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | Video |-- | -- | --
+[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | Video | 45 minutes | -- | -- | --
+[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | Video | 45 minutes | -- | -- | --
+[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | Video | 45 minutes | -- | -- | --
 [What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | Video | 40 minutes | -- | -- | --
 [DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | Video | 40 minutes | -- | -- | --
-[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
+[Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | Video | 50 minutes | -- | -- | --
 [Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | Video | 42 minutes | -- | -- | --
 [Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | Video | 42 minutes | -- | -- | --
 [Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | Video | 48 minutes | -- | -- | --
