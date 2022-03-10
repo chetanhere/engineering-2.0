@@ -102,20 +102,20 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | -- | -- | --
-[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | -- | -- | --
-[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | -- | -- | --
-[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | 40 minutes | -- | -- | --
-[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | 40 minutes | -- | -- | --
+[What is computation](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=1) | 45 minutes | Video | -- | -- | --
+[Branching and Iterations](https://www.youtube.com/watch?v=0jljZRnHwOI&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=5) | 45 minutes | Video | -- | -- | --
+[Play with Strings](https://www.youtube.com/watch?v=SE4P7IVCunE&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=11) | 45 minutes | Video |-- | -- | --
+[What is function and how it works](https://www.youtube.com/watch?v=MjbuarJ7SE0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=14) | Video | 40 minutes | -- | -- | --
+[DS Intro in Python](https://www.youtube.com/watch?v=RvRKT-jXvko&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=17) | Video | 40 minutes | -- | -- | --
 [Recursion, an important lesson](https://www.youtube.com/watch?v=WPSeyjX1-4s&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=22) | 50 minutes | -- | -- | --
-[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | 42 minutes | -- | -- | --
-[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | 42 minutes | -- | -- | --
-[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | 48 minutes | -- | -- | --
-[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | 52 minutes | -- | -- | --
-[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | 50 minutes | -- | -- | --
-[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | 49 minutes | -- | -- | --
+[Testing and debugging](https://www.youtube.com/watch?v=9H6muyZjms0&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=23) | Video | 42 minutes | -- | -- | --
+[Class, Object and OOP](https://www.youtube.com/watch?v=-DP1i2ZU9gk&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=27) | Video | 42 minutes | -- | -- | --
+[Classes in Python & Inheritence](https://www.youtube.com/watch?v=FlGjISF3l78&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=33) | Video | 48 minutes | -- | -- | --
+[Understand a written program - Part 1](https://www.youtube.com/watch?v=o9nW0uBqvEo&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=36) | Video | 52 minutes | -- | -- | --
+[Understand a written program - Part 2](https://www.youtube.com/watch?v=7lQXYl_L28w&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=37) | Video | 50 minutes | -- | -- | --
+[Searching and Sorting](https://www.youtube.com/watch?v=6LOwPhPDwVc&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&index=38) | Video | 49 minutes | -- | -- | --
 
 
 ## Python Programming
@@ -130,15 +130,15 @@ First two lessons are a bit easy to follow and recommended if you are absolute b
 `python ide and environment`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Python programming - beginner](https://www.youtube.com/watch?v=rfscVS0vtbw) | 4 hours 27 minutes | -- | -- | --
-[Python programming - intermediate](https://www.youtube.com/watch?v=HGOBQPFzWKo) | 5 hours 56 minutes | -- | -- | --
-[Python a bit deeper](https://www.youtube.com/watch?v=ky-24RvI57s) | 2 hours 12 minutes | -- | -- | --
-[Understand GIT and Github - optional](https://www.youtube.com/watch?v=NcoBAfJ6l2Q&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=3) | 53 minutes | -- | -- | --
-[Django - Web Programming in Python - optional](https://www.youtube.com/watch?v=w8q0C-C1js4&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=5) | 1 hour 39 minutes | -- | -- | --
-[Django - Models & Migration - optional](https://www.youtube.com/watch?v=YzP164YANAU&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=6) | 1 hour 55 minutes | -- | -- | --
-[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 50 hours | -- | -- | --
+[Python programming - beginner](https://www.youtube.com/watch?v=rfscVS0vtbw) | Video | 4 hours 27 minutes | -- | -- | --
+[Python programming - intermediate](https://www.youtube.com/watch?v=HGOBQPFzWKo) | Video | 5 hours 56 minutes | -- | -- | --
+[Python a bit deeper](https://www.youtube.com/watch?v=ky-24RvI57s) | Video | 2 hours 12 minutes | -- | -- | --
+[Understand GIT and Github - optional](https://www.youtube.com/watch?v=NcoBAfJ6l2Q&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=3) | Video | 53 minutes | -- | -- | --
+[Django - Web Programming in Python - optional](https://www.youtube.com/watch?v=w8q0C-C1js4&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=5) | Video | 1 hour 39 minutes | -- | -- | --
+[Django - Models & Migration - optional](https://www.youtube.com/watch?v=YzP164YANAU&list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu&index=6) | Video | 1 hour 55 minutes | -- | -- | --
+[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | Video | 50 hours | -- | -- | --
 
 
 ## Python Data Structure
@@ -152,18 +152,18 @@ First two lessons are a bit easy to follow and recommended if you are absolute b
 `basic data structure`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Python Data Strcuture - beginner](https://www.youtube.com/watch?v=pkYVOmU3MgA) | 12 hours 30 minutes | -- | -- | --
-[Python Data Structure - intermediate](https://www.youtube.com/watch?v=D6Q_wHrzxDs) | 12 hours | -- | -- | --
-[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | 20 hours | -- | -- | --
+[Python Data Strcuture - beginner](https://www.youtube.com/watch?v=pkYVOmU3MgA) | Video | 12 hours 30 minutes | -- | -- | --
+[Python Data Structure - intermediate](https://www.youtube.com/watch?v=D6Q_wHrzxDs) | Video | 12 hours | -- | -- | --
+[Test your Python Skills](https://github.com/ProgrammingHero1/100-plus-python-coding-problems-with-solutions) | Video | 20 hours | -- | -- | --
 
 ## Algorithm Course MIT
 ## 50 hours
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Complete Semester Course Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) | 50 hours | -- | -- | --
+[Complete Semester Course Algorithms](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb) | Video | 50 hours | -- | -- | --
 
 
 ## DSA General Algorithms
@@ -178,14 +178,14 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `gcd`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Introduction to Euclid Algorithm](https://www.youtube.com/watch?v=H1AE2Se8A5E) | 9 minutes | -- | -- | --
-[Visualize Euclid Algorithm](https://www.youtube.com/watch?v=qgcgZISJlEc) | 10 minutes | -- | -- | --
-[Example Euclid's Devision](https://www.youtube.com/watch?v=i_GSGCboDb8) | 5 minutes | -- | -- | --
-[Intro to Eucllidian Geometry](https://www.youtube.com/watch?v=WqzK3UAXaHs) | 9 minutes | -- | -- | --
-[Euclid Algorithm, Discreate Mathematics](https://www.youtube.com/watch?v=cOwyHTiW4KE) | 10 minutes | -- | -- | --
-[Program](https://www.youtube.com/watch?v=TOxMepI2RPo) | 26 minutes | -- | -- | --
+[Introduction to Euclid Algorithm](https://www.youtube.com/watch?v=H1AE2Se8A5E) | Video | 9 minutes | -- | -- | --
+[Visualize Euclid Algorithm](https://www.youtube.com/watch?v=qgcgZISJlEc) | Video | 10 minutes | -- | -- | --
+[Example Euclid's Devision](https://www.youtube.com/watch?v=i_GSGCboDb8) | Video | 5 minutes | -- | -- | --
+[Intro to Eucllidian Geometry](https://www.youtube.com/watch?v=WqzK3UAXaHs) | Video | 9 minutes | -- | -- | --
+[Euclid Algorithm, Discreate Mathematics](https://www.youtube.com/watch?v=cOwyHTiW4KE) | Video | 10 minutes | -- | -- | --
+[Program](https://www.youtube.com/watch?v=TOxMepI2RPo) | Video | 26 minutes | -- | -- | --
 
 
 ### Union Find Algorithm 
@@ -199,13 +199,13 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `mathematics`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Disjoint Set - Union Find](https://www.geeksforgeeks.org/union-find/) | 30 minutes | -- | -- | --
-[Union by rank and path](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/) | 30 minutes | -- | -- | --
-[Hackerearth notes - Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/) | 45 minutes | -- | -- | --
-[Github Code- Union Find](https://medium.com/100-days-of-algorithms/day-41-union-find-d0027148376d) | 1 hour | -- | -- | --
-[GeeksforGeeks - Union Find](https://www.youtube.com/watch?v=mHz-mx-8lJ8) | 10 minutes | -- | -- | --
+[Disjoint Set - Union Find](https://www.geeksforgeeks.org/union-find/) | Article | 30 minutes | -- | -- | --
+[Union by rank and path](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/) | Article | 30 minutes | -- | -- | --
+[Hackerearth notes - Union Find](https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/) | Notes | 45 minutes | -- | -- | --
+[Github Code- Union Find](https://medium.com/100-days-of-algorithms/day-41-union-find-d0027148376d) | Article | 1 hour | -- | -- | --
+[GeeksforGeeks - Union Find](https://www.youtube.com/watch?v=mHz-mx-8lJ8) | Video | 10 minutes | -- | -- | --
 
 
 ### Huffman Algorithm 
@@ -219,13 +219,13 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Introduction to Huffman Algorithm](https://www.youtube.com/watch?v=umTbivyJoiI) | 20 minutes | -- | -- | --
-[Huffman and text compression](https://www.youtube.com/watch?v=JsTptu56GM8) | 20 minutes | -- | -- | --
-[Huffman coding - Greedy Choice](https://www.youtube.com/watch?v=0kNXhFIEd_w) | 20 minutes | -- | -- | --
-[Program with Huffman Coding - Python](https://www.youtube.com/watch?v=7tCNu4CnjVc) | 30 minutes | -- | -- | --
-[GeeksforGeeks Huffman Coding](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/) | 20 minutes | -- | -- | --
+[Introduction to Huffman Algorithm](https://www.youtube.com/watch?v=umTbivyJoiI) | Video | 20 minutes | -- | -- | --
+[Huffman and text compression](https://www.youtube.com/watch?v=JsTptu56GM8) | Video | 20 minutes | -- | -- | --
+[Huffman coding - Greedy Choice](https://www.youtube.com/watch?v=0kNXhFIEd_w) | Video | 20 minutes | -- | -- | --
+[Program with Huffman Coding - Python](https://www.youtube.com/watch?v=7tCNu4CnjVc) | Video | 30 minutes | -- | -- | --
+[GeeksforGeeks Huffman Coding](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/) | Article | 20 minutes | -- | -- | --
 
 
 ## Array Algorithms
@@ -241,12 +241,12 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Introduction to Kadane Algorithm](https://www.youtube.com/watch?v=OexQs_cYgAQ) | 30 minutes | -- | -- | --
-[Theory about Kadane Algorithm](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d) | 20 minutes | -- | -- | --
-[Leetcode Challenge - Maximum Subarray](https://www.youtube.com/watch?v=umt7t1_X8Rc) | 30 minutes | -- | -- | --
-[Full Lecture Kadane Algorithm](https://www.youtube.com/watch?v=QbbutQ2ohe0) | 1 hour 30 minutes | -- | -- | --
+[Introduction to Kadane Algorithm](https://www.youtube.com/watch?v=OexQs_cYgAQ) | Video | 30 minutes | -- | -- | --
+[Theory about Kadane Algorithm](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d) | Article | 20 minutes | -- | -- | --
+[Leetcode Challenge - Maximum Subarray](https://www.youtube.com/watch?v=umt7t1_X8Rc) | Video | 30 minutes | -- | -- | --
+[Full Lecture Kadane Algorithm](https://www.youtube.com/watch?v=QbbutQ2ohe0) | Video | 1 hour 30 minutes | -- | -- | --
 
 
 ### Floyd Cycle Algorithm 
@@ -260,10 +260,10 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
-[Find Duplicate Number - Floyd's Cycle algorithm](https://www.youtube.com/watch?v=wjYnzkAhcNk) | 45 minutes | -- | -- | --
-[Floyd Warshall Algortihm](https://www.youtube.com/watch?v=5h4Rqa9CrHA) | 45 minutes | -- | -- | --
+[Find Duplicate Number - Floyd's Cycle algorithm](https://www.youtube.com/watch?v=wjYnzkAhcNk) | Video | 45 minutes | -- | -- | --
+[Floyd Warshall Algortihm](https://www.youtube.com/watch?v=5h4Rqa9CrHA) | Video | 45 minutes | -- | -- | --
 
 
 ### KMP Algorithm 
@@ -277,7 +277,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -292,7 +292,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -307,7 +307,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -324,7 +324,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -340,7 +340,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -356,7 +356,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -372,7 +372,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -389,7 +389,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -404,7 +404,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -422,7 +422,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -437,7 +437,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -453,7 +453,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -469,7 +469,7 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
 
 
@@ -485,5 +485,5 @@ This course is assuming that you are absolute begginner. Please feel free to ski
 `construct of programming`
 `and more`
 
-Courses | Duration | Effort | Prerequisites | Discussion
+Courses | Type | Duration | Effort | Prerequisites | Discussion
 :-- | :--: | :--: | :--: | :--:
